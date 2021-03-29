@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Logems_Example' do
+  pod 'Logems', :path => '../'
+
+  target 'Logems_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
