@@ -1,0 +1,16 @@
+PODS:
+  - Logems (0.1.0)
+
+DEPENDENCIES:
+  - Logems (from `../`)
+
+EXTERNAL SOURCES:
+  Logems:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Logems: 1573d0c3e1ff42c7ac6f28116aa109a08287c0ca
+
+PODFILE CHECKSUM: f6f9693e660e6391192069d388e4c56a01a5e1ea
+
+COCOAPODS: 1.9.3
