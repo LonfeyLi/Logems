@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #   'Logems' => ['Logems/Assets/*.png']
   # }
 
-   s.public_header_files = 'Logems/Classes/Headers/**/*.h'
+#   s.public_header_files = 'Logems/Classes/Headers/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
