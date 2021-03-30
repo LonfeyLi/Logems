@@ -30,8 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Logems/Classes/**/*'
-  
+#  s.source_files = 'Logems/Classes/**/*'
+  s.subspec 'Frameworks' do |ss|
+      ss.source_files = 'Logems/Classes/Frameworks/**/*'
+      end
+  s.subspec 'Headers' do |ss|
+      ss.source_files = 'Logems/Classes/Headers/**/*'
+      end
   # s.resource_bundles = {
   #   'Logems' => ['Logems/Assets/*.png']
   # }

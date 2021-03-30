@@ -18,6 +18,15 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Logems/Classes/**/*",
-  "public_header_files": "Logems/Classes/Headers/**/*.h"
+  "public_header_files": "Logems/Classes/Headers/**/*.h",
+  "subspecs": [
+    {
+      "name": "Frameworks",
+      "source_files": "Logems/Classes/Frameworks/**/*"
+    },
+    {
+      "name": "Headers",
+      "source_files": "Logems/Classes/Headers/**/*"
+    }
+  ]
 }
