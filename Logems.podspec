@@ -28,20 +28,21 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/LoneyLi/Logems.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '9.0'
-    
-    #  s.source_files = 'Logems/Classes/**/*'
+    s.platform = :ios, '9.0'
+    #    s.ios.deployment_target = '9.0'
+    s.source_files = 'Logems/Classes/**/*.h'
     s.subspec 'Frameworks' do |ss|
         ss.source_files = 'Logems/Classes/Frameworks/**/*'
     end
-    s.subspec 'Headers' do |ss|
-        ss.source_files = 'Logems/Classes/Headers/**/*'
-    end
+    
+    #    s.subspec 'Headers' do |ss|
+    #        ss.source_files = 'Logems/Classes/Headers/**/*'
+    #    end
     # s.resource_bundles = {
     #   'Logems' => ['Logems/Assets/*.png']
     # }
     s.library = 'z'
-    #   s.public_header_files = 'Logems/Classes/Headers/**/*.h'
+    #       s.public_header_files = 'Logems/Classes/Headers/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
 end
