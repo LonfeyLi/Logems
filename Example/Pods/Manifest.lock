@@ -1,9 +1,9 @@
 PODS:
-  - Logems (0.2.0):
-    - Logems/Frameworks (= 0.2.0)
-    - Logems/Headers (= 0.2.0)
-  - Logems/Frameworks (0.2.0)
-  - Logems/Headers (0.2.0)
+  - Logems (0.3.0):
+    - Logems/Frameworks (= 0.3.0)
+    - Logems/Headers (= 0.3.0)
+  - Logems/Frameworks (0.3.0)
+  - Logems/Headers (0.3.0)
 
 DEPENDENCIES:
   - Logems (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Logems: 42675b2a31bfc315e8af7d2534528ea31c949f81
+  Logems: 01860207091ddc0c922e60405f506c28136d136c
 
 PODFILE CHECKSUM: f6f9693e660e6391192069d388e4c56a01a5e1ea
 
