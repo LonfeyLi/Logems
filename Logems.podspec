@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Logems'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A C++ library of collection log.'
   s.description      = <<-DESC
   一个收集日志的C++库
@@ -26,7 +26,6 @@ Pod::Spec.new do |s|
   s.subspec 'Frameworks' do |ss|
     ss.source_files = 'Logems/Classes/Frameworks/**/*'
   end
-  s.vendored_libraries = 'Logems/Classes/Frameworks/*.a'
   #    s.subspec 'Headers' do |ss|
   #        ss.source_files = 'Logems/Classes/Headers/**/*'
   #    end
