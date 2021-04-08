@@ -15,6 +15,10 @@ class LogemsAppender {
 public:
     static LogemsAppender* NewInstance(const LogemsConfig &_config);
 
+    static void HandlerError(int _signal);
+
+    static void AppenderSetConsoleLog(bool _is_open);
+
 public:
 
     void DeleteTimeOutLogs(std::string& _dir_path) const;
@@ -22,6 +26,8 @@ public:
     ~LogemsAppender();
 
     void Write(const LogInfo* _log_info, const char* _log);
+
+    void Close();
 
 private:
     explicit LogemsAppender(const LogemsConfig& _config);
@@ -51,6 +57,7 @@ private:
     LogemsConfig config_;
     LogemsBaseBuffer* log_buffer_{};
     unsigned char* mmap_buffer_{};
+    bool console_log_open = true;
 
     //当前写日志文件
     time_t open_file_time_ = 0;
@@ -70,6 +77,7 @@ private:
     int write_max_retry_times = 3;
     //异步刷buffer到文件的线程
     std::thread async_thread_;
+    bool async_thread_finish_ = false;
     bool log_close_ = false;
 };
 #endif

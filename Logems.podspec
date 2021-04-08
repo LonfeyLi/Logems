@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Logems'
-  s.version          = '0.7.0'
+  s.version          = '0.8.0'
   s.summary          = 'A C++ library of collection log.'
   s.description      = <<-DESC
   一个收集日志的C++库
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.requires_arc = true
- 
+  
 end

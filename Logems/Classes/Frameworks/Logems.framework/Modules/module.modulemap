@@ -1,0 +1,6 @@
+framework module Logems {
+  umbrella header "Logems.h"
+
+  export *
+  module * { export * }
+}
