@@ -7,42 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035530EF53EEE7FEF13388077609D729 /* logems_base_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A950EC12F88DF9829873621F71671CDF /* logems_base_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		081226B47F35C587636B5E8914185B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0B2E68C556EEEA906049AD73B3769EFC /* MBLogemsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A3EA943A5D405DFD41B229BF07099F /* MBLogemsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15F39097FD6B0DDA650C4D4B77508740 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1AAFA43B19C2685F249F9D63F8FEF /* CodeSignature */; };
-		165C4B8BF9C5282D2C21294DBDCBB678 /* logems_config.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B97C9AA1C8518393CCE9FC239D3905 /* logems_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F149C7ED40DFEECB869592145C2ED96 /* fix_length_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9BD27E43E18EC23D43DF51ADBF672E /* fix_length_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21969B91DC2E55325715D18CB19CECE7 /* Pods-Logems_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00F9432A5D3F0F1CAC75E9B171292D2 /* Pods-Logems_Tests-dummy.m */; };
-		2243E9B4CAB9F76ADB2DD5CF5242CF2E /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = E4A0B5792B84C832782561BF16961C1D /* CodeDirectory */; };
-		26234409D2C2B3B1D47F49F6BCCFCAFD /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = BB8A683AA412E0B6B3F8BD7523F8B532 /* CodeRequirements-1 */; };
 		29CDAE4169B1163140C5D9C169715F2E /* Pods-Logems_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A960878E2DA7F5B92119C18DA82815AB /* Pods-Logems_Example-dummy.m */; };
-		3E8812CCF24E92F0DCF0D8FB14A18848 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = D50C3FDE59B45C118C358AB67DBCE120 /* module.modulemap */; };
-		3F1EEAB80FFAF3360E76803CC5D0756B /* Logems-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE6287DC4B708D7B7B83481A056E61C /* Logems-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45AB0657D2999C252815290D5199E209 /* Logems.h in Headers */ = {isa = PBXBuildFile; fileRef = 2728B401448264511BB5EA082B8F23A5 /* Logems.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		641CDDC4EBE7227E414C9CCCCBC5C2C2 /* Logems-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC541CE7C67FBCB43F01D42E539046A /* Logems-dummy.m */; };
-		6519A1944B7399E56D9F05BD318111CD /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = F01EFBD168F737C0932BD5FCF459CA7E /* CodeRequirements */; };
+		2EBA4D3703800E9A5C705D5CDA1684EA /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = AC5D77132A2D5E60DE6F0F41CCF1C433 /* Info.plist */; };
+		37B5942CB1B4E2121FB89BB0239AED65 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = 43A6D2E3BB29EC6B887D27E08DF67C5E /* CodeRequirements */; };
+		432E532340DA3798406FB350A716C7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49A3956442AFBE0B5424D53137A5F2F5 /* Logems.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A99A28A416422321BFAAA6FE90798EF /* Logems.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57FECEC7ED6B2227CD9164608A3CEDCC /* Logems-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E45336521498C68921A775DA0F4682 /* Logems-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71DF6DBBE4A8B018CC98624E2FE4A239 /* Pods-Logems_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11053BCA74888E8E27E076CB36326BC /* Pods-Logems_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77B5156C3166842D5E2691DB9B5F6AF7 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B9E598C84E3A7D996091D9BD7A4F5 /* Info.plist */; };
-		ADA7CC6226380DAE294FF561A8F9807D /* log_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 652C699070338C24B3155CAFC75BAA28 /* log_crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7316635DB6694D96144967C839C83CB7 /* MBLogemsManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7346A594890D9FAF93BAF64DA57D03BC /* MBLogemsManager.mm */; };
+		87A839B25AA0C003E9F5EB47D3834011 /* Logems-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2FF2E03A5A5DD70A2160BFEEBDCE9E /* Logems-dummy.m */; };
+		88746FAEAAF270758B0F45773C6C188F /* MBLogemsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68005CDDC28BCD3DDE04D8BE88B65AB5 /* MBLogemsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99155DF6EC5C4FFB284852CDC2823F60 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = 7DB516DA86BBC23E442A3BBA9A5D4E48 /* CodeSignature */; };
+		A200FDD96FDD1B75DB4869BC185A23C1 /* Logems in Sources */ = {isa = PBXBuildFile; fileRef = EEE64BB778A7BDCA7974C01E08F3454D /* Logems */; };
+		A21B43607CD8C0064E9BCFD79F9695CF /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = E02B937B9725F354A26940ADEFA1E7DB /* CodeRequirements-1 */; };
+		A61D8ADC5903925E18080B951313B696 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 072861DAB57CE4673F19C8E0B18D7D72 /* module.modulemap */; };
+		AEED30318B6AA9113DB4E69E2475C089 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = ACE1A7577B284AA81EF0B523CBB6439E /* CodeResources */; };
 		B3D6533749B9A8549F8E0AF1E18157AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BBA92BCE2B98A4AC3F930B830E7C8546 /* variable_length_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D94D6E6D57B654D03BCF645ED32B8195 /* variable_length_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C68F8FE5CCDF71A3A05CCE12BFE3C169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CBF42173DF3C63C49DB4C7C833E275E1 /* logems_appender.h in Headers */ = {isa = PBXBuildFile; fileRef = 206FDDCA7F6CCBE099AC1D5DBA079D4F /* logems_appender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC8EA0A6E951BFDFF4E9AB77FDCF16E7 /* Pods-Logems_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E811C66B6D826209F919699D7ACB848 /* Pods-Logems_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E683F02DACF00A8ACE3BDBE91B8EF479 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = FEE9900BA8FEE9596739AB69F6C26B4A /* CodeResources */; };
-		EE360489B4FAE3866886E37C5F8AFC14 /* Logems in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B4C7526D68BE231C53AC73FCE8220 /* Logems */; };
+		D0AE29C87D5C5AB08C8C61EF15DD8007 /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEE9EF83A38C59BE728251299FFD94 /* CodeDirectory */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B8E2D01A5788583EEA82804AE28A90A /* PBXContainerItemProxy */ = {
+		05FE93D8B097EE24EDAFB25E594039DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11009F29B3F28C195EE4A6F19279FCA8;
 			remoteInfo = "Pods-Logems_Example";
 		};
-		558C8F730F820890495C1F6CE1511738 /* PBXContainerItemProxy */ = {
+		5D4DE218D42A163C2DF8BB7BA2201953 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -52,65 +47,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072861DAB57CE4673F19C8E0B18D7D72 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		119690940EC5F57FC7033F8CF426C43D /* Pods-Logems_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logems_Example.release.xcconfig"; sourceTree = "<group>"; };
+		17ED6696923E2FC36322049EFDB0C2DD /* Logems.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Logems.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C04F2E5CE7DC45D21615167908B2C5B /* Pods_Logems_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Logems_Example.framework; path = "Pods-Logems_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		206FDDCA7F6CCBE099AC1D5DBA079D4F /* logems_appender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = logems_appender.h; sourceTree = "<group>"; };
 		2186BD21E1B452506DE8954727641B87 /* Pods-Logems_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logems_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		264C1A2FB0B1CA6D932E27AB867AC2FB /* Pods-Logems_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logems_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2728B401448264511BB5EA082B8F23A5 /* Logems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Logems.h; sourceTree = "<group>"; };
-		2944A6A6FCF5526C1D846A4D578B5E12 /* Logems.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logems.modulemap; sourceTree = "<group>"; };
-		2C9BD27E43E18EC23D43DF51ADBF672E /* fix_length_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fix_length_buffer.h; sourceTree = "<group>"; };
-		3AC541CE7C67FBCB43F01D42E539046A /* Logems-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Logems-dummy.m"; sourceTree = "<group>"; };
-		3C0E1280443BD1DE7DC6A9E288A497E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3FAD95B3839100DA14BC097C4C9A6CED /* Pods-Logems_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Logems_Example.modulemap"; sourceTree = "<group>"; };
+		43A6D2E3BB29EC6B887D27E08DF67C5E /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
 		4418DFF49BDBC43B90C1002505CA0F33 /* Pods-Logems_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Logems_Tests.modulemap"; sourceTree = "<group>"; };
+		46F21D95DA65BBCAB41CF39A5EEFE6EE /* Logems.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logems.modulemap; sourceTree = "<group>"; };
 		4A31297CD9FE011A97BB3E6697F122EE /* Pods-Logems_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logems_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4AD1AAFA43B19C2685F249F9D63F8FEF /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
-		4D0B9E598C84E3A7D996091D9BD7A4F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Logems.framework/Info.plist; sourceTree = "<group>"; };
-		4F087C4AF1A37A6394AD0E863E446450 /* Logems-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logems-Info.plist"; sourceTree = "<group>"; };
+		5507E2873A83577FA3011375036EB952 /* Logems-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logems-prefix.pch"; sourceTree = "<group>"; };
+		552A718C21EC1543B609B85EDE7C7E33 /* Logems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logems.release.xcconfig; sourceTree = "<group>"; };
+		5A99A28A416422321BFAAA6FE90798EF /* Logems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Logems.h; sourceTree = "<group>"; };
 		5FC1E456CD55EA430488939570E55E5D /* Pods-Logems_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logems_Tests-Info.plist"; sourceTree = "<group>"; };
 		626EBF94FB05FC77727E5F06F4B4626A /* Pods-Logems_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Logems_Example-frameworks.sh"; sourceTree = "<group>"; };
-		652C699070338C24B3155CAFC75BAA28 /* log_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = log_crypt.h; sourceTree = "<group>"; };
+		68005CDDC28BCD3DDE04D8BE88B65AB5 /* MBLogemsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLogemsManager.h; path = Logems/Classes/MBLogemsManager.h; sourceTree = "<group>"; };
+		6DDEE9EF83A38C59BE728251299FFD94 /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FE6287DC4B708D7B7B83481A056E61C /* Logems-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logems-umbrella.h"; sourceTree = "<group>"; };
+		7346A594890D9FAF93BAF64DA57D03BC /* MBLogemsManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MBLogemsManager.mm; path = Logems/Classes/MBLogemsManager.mm; sourceTree = "<group>"; };
+		7DB516DA86BBC23E442A3BBA9A5D4E48 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		7F87D78E674610D8F7FA5F7D25ADF91A /* Logems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logems.debug.xcconfig; sourceTree = "<group>"; };
 		8860D2B07B7920C65FEB21FA366713C6 /* Pods-Logems_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logems_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95A3EA943A5D405DFD41B229BF07099F /* MBLogemsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLogemsManager.h; path = Logems/Classes/MBLogemsManager.h; sourceTree = "<group>"; };
-		9D3B4C7526D68BE231C53AC73FCE8220 /* Logems */ = {isa = PBXFileReference; includeInIndex = 1; name = Logems; path = Logems.framework/Logems; sourceTree = "<group>"; };
+		8A8B834C54B0531FF675D46652113A18 /* Logems-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logems-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E811C66B6D826209F919699D7ACB848 /* Pods-Logems_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Logems_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A657762DC7F5878555EED4075B4DF1B5 /* Logems-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logems-prefix.pch"; sourceTree = "<group>"; };
-		A700067C93413B00B43BE3950CECCE3D /* Logems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logems.release.xcconfig; sourceTree = "<group>"; };
-		A950EC12F88DF9829873621F71671CDF /* logems_base_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = logems_base_buffer.h; sourceTree = "<group>"; };
 		A960878E2DA7F5B92119C18DA82815AB /* Pods-Logems_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Logems_Example-dummy.m"; sourceTree = "<group>"; };
 		AC02ED28958488BB1FF14B139078088C /* Pods_Logems_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Logems_Tests.framework; path = "Pods-Logems_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5D77132A2D5E60DE6F0F41CCF1C433 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE1A7577B284AA81EF0B523CBB6439E /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		ADF22CCA0EC76317C6DAFF38F5FB2DEE /* Pods-Logems_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Logems_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B11053BCA74888E8E27E076CB36326BC /* Pods-Logems_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Logems_Example-umbrella.h"; sourceTree = "<group>"; };
 		B19A43F5C0457EAB9028CCA0475D9974 /* Pods-Logems_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logems_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B78965734AE9C733C34986F89280E1CC /* Logems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logems.debug.xcconfig; sourceTree = "<group>"; };
 		B91678B2C07EDC07061B6FB22B9B3766 /* Pods-Logems_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logems_Example-Info.plist"; sourceTree = "<group>"; };
-		BB8A683AA412E0B6B3F8BD7523F8B532 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
 		C4185BCFA3D896458AAB29A650F4E998 /* Logems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logems.framework; path = Logems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B97C9AA1C8518393CCE9FC239D3905 /* logems_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = logems_config.h; sourceTree = "<group>"; };
-		CB647B945A90450B4ED4E30B8D6B1BDA /* Logems.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Logems.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D50C3FDE59B45C118C358AB67DBCE120 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		D94D6E6D57B654D03BCF645ED32B8195 /* variable_length_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = variable_length_buffer.h; sourceTree = "<group>"; };
-		E4A0B5792B84C832782561BF16961C1D /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
-		EF92FC15052C1B1757B2200C2D73415F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF25D3833060B59827E904F29DE91435 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4BE0A602555ED7B233F636CE25AD1C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D9E45336521498C68921A775DA0F4682 /* Logems-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logems-umbrella.h"; sourceTree = "<group>"; };
+		DF2FF2E03A5A5DD70A2160BFEEBDCE9E /* Logems-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Logems-dummy.m"; sourceTree = "<group>"; };
+		E02B937B9725F354A26940ADEFA1E7DB /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		EEE64BB778A7BDCA7974C01E08F3454D /* Logems */ = {isa = PBXFileReference; includeInIndex = 1; path = Logems; sourceTree = "<group>"; };
 		F00F9432A5D3F0F1CAC75E9B171292D2 /* Pods-Logems_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Logems_Tests-dummy.m"; sourceTree = "<group>"; };
-		F01EFBD168F737C0932BD5FCF459CA7E /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
-		FEE9900BA8FEE9596739AB69F6C26B4A /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
 		FFCA49AC8AF53BD5D4998E53DC5BF17F /* Pods-Logems_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Logems_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D09AD69862E3B070A421F0C385FF7BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				081226B47F35C587636B5E8914185B73 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7115B9DB3EAFF3D62D504B7E7358F8C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,29 +109,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9388217846DFCB80673886C0A7518459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432E532340DA3798406FB350A716C7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B8397D56A7E1D24FF1EF2DFA0F206DE /* Logems.framework */ = {
+		083ADA6F5AE99D5FEFFEC2FDB156FA87 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E7C95765E39711A8856E14991112FE07 /* Headers */,
+				D2DE1EB80ED3A0B93FB8A2EA22D3A920 /* Logems */,
 			);
-			name = Logems.framework;
-			path = Logems.framework;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		330D25D0CACAB156CFF0A3457C4BD245 /* Frameworks */ = {
+		3AA3752AA48DFF44A2E9388F31F0ACAD /* _CodeSignature */ = {
 			isa = PBXGroup;
 			children = (
-				4D0B9E598C84E3A7D996091D9BD7A4F5 /* Info.plist */,
-				9D3B4C7526D68BE231C53AC73FCE8220 /* Logems */,
-				A1535DD6CE735D197808EF30DEC65E50 /* _CodeSignature */,
-				0B8397D56A7E1D24FF1EF2DFA0F206DE /* Logems.framework */,
-				714959CA3833D4B27D012B9C2ACC24ED /* Modules */,
+				6DDEE9EF83A38C59BE728251299FFD94 /* CodeDirectory */,
+				43A6D2E3BB29EC6B887D27E08DF67C5E /* CodeRequirements */,
+				E02B937B9725F354A26940ADEFA1E7DB /* CodeRequirements-1 */,
+				ACE1A7577B284AA81EF0B523CBB6439E /* CodeResources */,
+				7DB516DA86BBC23E442A3BBA9A5D4E48 /* CodeSignature */,
 			);
-			name = Frameworks;
-			path = Logems/Classes/Frameworks;
+			name = _CodeSignature;
+			path = _CodeSignature;
 			sourceTree = "<group>";
 		};
 		512DB168356483A3CC21550CCC0DA886 /* Targets Support Files */ = {
@@ -186,21 +175,40 @@
 			path = "Target Support Files/Pods-Logems_Example";
 			sourceTree = "<group>";
 		};
-		714959CA3833D4B27D012B9C2ACC24ED /* Modules */ = {
+		834679DF5E60E27B6991E0D77339AD66 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D50C3FDE59B45C118C358AB67DBCE120 /* module.modulemap */,
+				46F21D95DA65BBCAB41CF39A5EEFE6EE /* Logems.modulemap */,
+				DF2FF2E03A5A5DD70A2160BFEEBDCE9E /* Logems-dummy.m */,
+				8A8B834C54B0531FF675D46652113A18 /* Logems-Info.plist */,
+				5507E2873A83577FA3011375036EB952 /* Logems-prefix.pch */,
+				D9E45336521498C68921A775DA0F4682 /* Logems-umbrella.h */,
+				7F87D78E674610D8F7FA5F7D25ADF91A /* Logems.debug.xcconfig */,
+				552A718C21EC1543B609B85EDE7C7E33 /* Logems.release.xcconfig */,
 			);
-			name = Modules;
-			path = Logems.framework/Modules;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Logems";
 			sourceTree = "<group>";
 		};
-		8FF8D07E657611BC691B63CF4AD7C667 /* Pod */ = {
+		887CC4A058AD0FECDCE2F4E02F6839DC /* Logems.framework */ = {
 			isa = PBXGroup;
 			children = (
-				3C0E1280443BD1DE7DC6A9E288A497E0 /* LICENSE */,
-				CB647B945A90450B4ED4E30B8D6B1BDA /* Logems.podspec */,
-				EF92FC15052C1B1757B2200C2D73415F /* README.md */,
+				AC5D77132A2D5E60DE6F0F41CCF1C433 /* Info.plist */,
+				EEE64BB778A7BDCA7974C01E08F3454D /* Logems */,
+				3AA3752AA48DFF44A2E9388F31F0ACAD /* _CodeSignature */,
+				9D42FBB6CE35A2B1B398199F94A1F67F /* Headers */,
+				CD589B587B2ACE50D5E3D38FB2CD17D0 /* Modules */,
+			);
+			name = Logems.framework;
+			path = Logems.framework;
+			sourceTree = "<group>";
+		};
+		9CD755CB378C00A20B2388B4941D5182 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4BE0A602555ED7B233F636CE25AD1C3 /* LICENSE */,
+				17ED6696923E2FC36322049EFDB0C2DD /* Logems.podspec */,
+				CF25D3833060B59827E904F29DE91435 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -215,32 +223,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1535DD6CE735D197808EF30DEC65E50 /* _CodeSignature */ = {
+		9D42FBB6CE35A2B1B398199F94A1F67F /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				E4A0B5792B84C832782561BF16961C1D /* CodeDirectory */,
-				F01EFBD168F737C0932BD5FCF459CA7E /* CodeRequirements */,
-				BB8A683AA412E0B6B3F8BD7523F8B532 /* CodeRequirements-1 */,
-				FEE9900BA8FEE9596739AB69F6C26B4A /* CodeResources */,
-				4AD1AAFA43B19C2685F249F9D63F8FEF /* CodeSignature */,
+				5A99A28A416422321BFAAA6FE90798EF /* Logems.h */,
 			);
-			name = _CodeSignature;
-			path = Logems.framework/_CodeSignature;
-			sourceTree = "<group>";
-		};
-		A5B6663B66543E8EE5572792CE477150 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2944A6A6FCF5526C1D846A4D578B5E12 /* Logems.modulemap */,
-				3AC541CE7C67FBCB43F01D42E539046A /* Logems-dummy.m */,
-				4F087C4AF1A37A6394AD0E863E446450 /* Logems-Info.plist */,
-				A657762DC7F5878555EED4075B4DF1B5 /* Logems-prefix.pch */,
-				7FE6287DC4B708D7B7B83481A056E61C /* Logems-umbrella.h */,
-				B78965734AE9C733C34986F89280E1CC /* Logems.debug.xcconfig */,
-				A700067C93413B00B43BE3950CECCE3D /* Logems.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Logems";
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		C9E111C03FDB22E6E8224202C07B3B28 /* Pods-Logems_Tests */ = {
@@ -259,11 +248,20 @@
 			path = "Target Support Files/Pods-Logems_Tests";
 			sourceTree = "<group>";
 		};
+		CD589B587B2ACE50D5E3D38FB2CD17D0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				072861DAB57CE4673F19C8E0B18D7D72 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D50B1BCA2E7A052E98AA2F45F7C1A7B1 /* Development Pods */,
+				083ADA6F5AE99D5FEFFEC2FDB156FA87 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9D0594A2247100E492D5D903FC52D132 /* Products */,
 				512DB168356483A3CC21550CCC0DA886 /* Targets Support Files */,
@@ -278,44 +276,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D50B1BCA2E7A052E98AA2F45F7C1A7B1 /* Development Pods */ = {
+		D2DE1EB80ED3A0B93FB8A2EA22D3A920 /* Logems */ = {
 			isa = PBXGroup;
 			children = (
-				E62A49DC96557E330B5B7C294D85CD30 /* Logems */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E62A49DC96557E330B5B7C294D85CD30 /* Logems */ = {
-			isa = PBXGroup;
-			children = (
-				95A3EA943A5D405DFD41B229BF07099F /* MBLogemsManager.h */,
-				330D25D0CACAB156CFF0A3457C4BD245 /* Frameworks */,
-				8FF8D07E657611BC691B63CF4AD7C667 /* Pod */,
-				A5B6663B66543E8EE5572792CE477150 /* Support Files */,
+				68005CDDC28BCD3DDE04D8BE88B65AB5 /* MBLogemsManager.h */,
+				7346A594890D9FAF93BAF64DA57D03BC /* MBLogemsManager.mm */,
+				ED3EDB2757BE7A2A063D45C0E89A80CA /* Frameworks */,
+				9CD755CB378C00A20B2388B4941D5182 /* Pod */,
+				834679DF5E60E27B6991E0D77339AD66 /* Support Files */,
 			);
 			name = Logems;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E7C95765E39711A8856E14991112FE07 /* Headers */ = {
+		ED3EDB2757BE7A2A063D45C0E89A80CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C9BD27E43E18EC23D43DF51ADBF672E /* fix_length_buffer.h */,
-				652C699070338C24B3155CAFC75BAA28 /* log_crypt.h */,
-				2728B401448264511BB5EA082B8F23A5 /* Logems.h */,
-				206FDDCA7F6CCBE099AC1D5DBA079D4F /* logems_appender.h */,
-				A950EC12F88DF9829873621F71671CDF /* logems_base_buffer.h */,
-				C6B97C9AA1C8518393CCE9FC239D3905 /* logems_config.h */,
-				D94D6E6D57B654D03BCF645ED32B8195 /* variable_length_buffer.h */,
+				887CC4A058AD0FECDCE2F4E02F6839DC /* Logems.framework */,
 			);
-			name = Headers;
-			path = Headers;
+			name = Frameworks;
+			path = Logems/Classes/Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		296467D233DCBCEAD66FBCA359A203F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FECEC7ED6B2227CD9164608A3CEDCC /* Logems-umbrella.h in Headers */,
+				49A3956442AFBE0B5424D53137A5F2F5 /* Logems.h in Headers */,
+				88746FAEAAF270758B0F45773C6C188F /* MBLogemsManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACEC988238C5F22B58B4EB7B202D976D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,22 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8EA0A6E951BFDFF4E9AB77FDCF16E7 /* Pods-Logems_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E23A2D16861FB2A0F5C7E73554F114DF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F149C7ED40DFEECB869592145C2ED96 /* fix_length_buffer.h in Headers */,
-				ADA7CC6226380DAE294FF561A8F9807D /* log_crypt.h in Headers */,
-				3F1EEAB80FFAF3360E76803CC5D0756B /* Logems-umbrella.h in Headers */,
-				45AB0657D2999C252815290D5199E209 /* Logems.h in Headers */,
-				CBF42173DF3C63C49DB4C7C833E275E1 /* logems_appender.h in Headers */,
-				035530EF53EEE7FEF13388077609D729 /* logems_base_buffer.h in Headers */,
-				165C4B8BF9C5282D2C21294DBDCBB678 /* logems_config.h in Headers */,
-				0B2E68C556EEEA906049AD73B3769EFC /* MBLogemsManager.h in Headers */,
-				BBA92BCE2B98A4AC3F930B830E7C8546 /* variable_length_buffer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +342,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AFD2C09DA58AE51B0BAAB91A11942A38 /* PBXTargetDependency */,
+				56D74D5C655E99547ABAB7762BD7A679 /* PBXTargetDependency */,
 			);
 			name = "Pods-Logems_Example";
 			productName = "Pods-Logems_Example";
@@ -372,12 +351,12 @@
 		};
 		165D5493FD25BDC17CBEBFC1A7AC1052 /* Logems */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08B205F41BF9F04B706A0048B13F19F8 /* Build configuration list for PBXNativeTarget "Logems" */;
+			buildConfigurationList = 0BB3D93B9426CC51ED46DBC33EC014E3 /* Build configuration list for PBXNativeTarget "Logems" */;
 			buildPhases = (
-				E23A2D16861FB2A0F5C7E73554F114DF /* Headers */,
-				4541117CB83EC231AF4824AF4A350664 /* Sources */,
-				3D09AD69862E3B070A421F0C385FF7BF /* Frameworks */,
-				6A6E5D11E4C5D5835984DB8BF6DFB4C4 /* Resources */,
+				296467D233DCBCEAD66FBCA359A203F8 /* Headers */,
+				9A5F57352D0A1686EE2900E6789A8811 /* Sources */,
+				9388217846DFCB80673886C0A7518459 /* Frameworks */,
+				4EF8748716027BBD86CF5896D83E272F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -400,7 +379,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				32DD6D578B9BD58BB848F96AC907D479 /* PBXTargetDependency */,
+				69E4DF0602D9C4F67EDFA2A6110C4B86 /* PBXTargetDependency */,
 			);
 			name = "Pods-Logems_Tests";
 			productName = "Pods-Logems_Tests";
@@ -437,14 +416,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B4BDD04EE26A1C26B1C854B3D4167CE /* Resources */ = {
+		4EF8748716027BBD86CF5896D83E272F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A6E5D11E4C5D5835984DB8BF6DFB4C4 /* Resources */ = {
+		5B4BDD04EE26A1C26B1C854B3D4167CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,22 +448,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4541117CB83EC231AF4824AF4A350664 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2243E9B4CAB9F76ADB2DD5CF5242CF2E /* CodeDirectory in Sources */,
-				6519A1944B7399E56D9F05BD318111CD /* CodeRequirements in Sources */,
-				26234409D2C2B3B1D47F49F6BCCFCAFD /* CodeRequirements-1 in Sources */,
-				E683F02DACF00A8ACE3BDBE91B8EF479 /* CodeResources in Sources */,
-				15F39097FD6B0DDA650C4D4B77508740 /* CodeSignature in Sources */,
-				77B5156C3166842D5E2691DB9B5F6AF7 /* Info.plist in Sources */,
-				EE360489B4FAE3866886E37C5F8AFC14 /* Logems in Sources */,
-				641CDDC4EBE7227E414C9CCCCBC5C2C2 /* Logems-dummy.m in Sources */,
-				3E8812CCF24E92F0DCF0D8FB14A18848 /* module.modulemap in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81EBBEE9C61AD19F337F57631B3C2A49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,54 +456,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A5F57352D0A1686EE2900E6789A8811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AE29C87D5C5AB08C8C61EF15DD8007 /* CodeDirectory in Sources */,
+				37B5942CB1B4E2121FB89BB0239AED65 /* CodeRequirements in Sources */,
+				A21B43607CD8C0064E9BCFD79F9695CF /* CodeRequirements-1 in Sources */,
+				AEED30318B6AA9113DB4E69E2475C089 /* CodeResources in Sources */,
+				99155DF6EC5C4FFB284852CDC2823F60 /* CodeSignature in Sources */,
+				2EBA4D3703800E9A5C705D5CDA1684EA /* Info.plist in Sources */,
+				A200FDD96FDD1B75DB4869BC185A23C1 /* Logems in Sources */,
+				87A839B25AA0C003E9F5EB47D3834011 /* Logems-dummy.m in Sources */,
+				7316635DB6694D96144967C839C83CB7 /* MBLogemsManager.mm in Sources */,
+				A61D8ADC5903925E18080B951313B696 /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32DD6D578B9BD58BB848F96AC907D479 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Logems_Example";
-			target = 11009F29B3F28C195EE4A6F19279FCA8 /* Pods-Logems_Example */;
-			targetProxy = 4B8E2D01A5788583EEA82804AE28A90A /* PBXContainerItemProxy */;
-		};
-		AFD2C09DA58AE51B0BAAB91A11942A38 /* PBXTargetDependency */ = {
+		56D74D5C655E99547ABAB7762BD7A679 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Logems;
 			target = 165D5493FD25BDC17CBEBFC1A7AC1052 /* Logems */;
-			targetProxy = 558C8F730F820890495C1F6CE1511738 /* PBXContainerItemProxy */;
+			targetProxy = 5D4DE218D42A163C2DF8BB7BA2201953 /* PBXContainerItemProxy */;
+		};
+		69E4DF0602D9C4F67EDFA2A6110C4B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Logems_Example";
+			target = 11009F29B3F28C195EE4A6F19279FCA8 /* Pods-Logems_Example */;
+			targetProxy = 05FE93D8B097EE24EDAFB25E594039DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05827F932D8728232C14CA1BFE200E5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B78965734AE9C733C34986F89280E1CC /* Logems.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Logems/Logems-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Logems/Logems-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Logems/Logems.modulemap";
-				PRODUCT_MODULE_NAME = Logems;
-				PRODUCT_NAME = Logems;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -640,9 +590,9 @@
 			};
 			name = Release;
 		};
-		36178014B1E4A48E1D31945CF29D9E20 /* Release */ = {
+		797EE176BF0B2BBE8D94F8B55C1A9718 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A700067C93413B00B43BE3950CECCE3D /* Logems.release.xcconfig */;
+			baseConfigurationReference = 552A718C21EC1543B609B85EDE7C7E33 /* Logems.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -697,6 +647,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98ABDA4BE2DDA48ED22ECAC2BD3A0969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F87D78E674610D8F7FA5F7D25ADF91A /* Logems.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Logems/Logems-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Logems/Logems-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Logems/Logems.modulemap";
+				PRODUCT_MODULE_NAME = Logems;
+				PRODUCT_NAME = Logems;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -842,11 +822,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08B205F41BF9F04B706A0048B13F19F8 /* Build configuration list for PBXNativeTarget "Logems" */ = {
+		0BB3D93B9426CC51ED46DBC33EC014E3 /* Build configuration list for PBXNativeTarget "Logems" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05827F932D8728232C14CA1BFE200E5C /* Debug */,
-				36178014B1E4A48E1D31945CF29D9E20 /* Release */,
+				98ABDA4BE2DDA48ED22ECAC2BD3A0969 /* Debug */,
+				797EE176BF0B2BBE8D94F8B55C1A9718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

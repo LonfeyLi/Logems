@@ -1,6 +1,6 @@
 {
   "name": "Logems",
-  "version": "0.7.0",
+  "version": "0.9.0",
   "summary": "A C++ library of collection log.",
   "description": "一个收集日志的C++库",
   "homepage": "https://github.com/LoneyLi/Logems",
@@ -13,19 +13,13 @@
   },
   "source": {
     "git": "https://github.com/LoneyLi/Logems.git",
-    "tag": "0.7.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Logems/Classes/**/*.h",
+  "source_files": "Logems/Classes/**/**",
   "public_header_files": "Logems/Classes/**/*.h",
   "libraries": "z",
-  "requires_arc": true,
-  "subspecs": [
-    {
-      "name": "Frameworks",
-      "source_files": "Logems/Classes/Frameworks/**/*"
-    }
-  ]
+  "requires_arc": true
 }

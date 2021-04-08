@@ -8,30 +8,6 @@
 		<data>
 		FfkM9MVpsln8wKQjLt0JeevPPrs=
 		</data>
-		<key>Headers/fix_length_buffer.h</key>
-		<data>
-		Xa7m/2G/7IhcpuF3YSfE3PKCrEM=
-		</data>
-		<key>Headers/log_crypt.h</key>
-		<data>
-		DymJYV+OikCGr/Jf7Oyqqk5ADjQ=
-		</data>
-		<key>Headers/logems_appender.h</key>
-		<data>
-		qjXDnqTIBCZ2EYomUIVqjUvU+HU=
-		</data>
-		<key>Headers/logems_base_buffer.h</key>
-		<data>
-		md2TJaczlE3Gw0y63yLDaXvkr3U=
-		</data>
-		<key>Headers/logems_config.h</key>
-		<data>
-		zgTo4PSMvV3yqVy0hCIEkur4KlU=
-		</data>
-		<key>Headers/variable_length_buffer.h</key>
-		<data>
-		baoF+szERkEqt7wcmdeiMQ6qTaU=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		789Y7BIxYOmc5zPS9XS2ZWOgM9U=
@@ -52,72 +28,6 @@
 			<key>hash2</key>
 			<data>
 			oSbk2eEuk5nyb88OMdYJxUm57JF8qFTBXWVtRdJTU9g=
-			</data>
-		</dict>
-		<key>Headers/fix_length_buffer.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Xa7m/2G/7IhcpuF3YSfE3PKCrEM=
-			</data>
-			<key>hash2</key>
-			<data>
-			i+BqKQeVAIwDiKtkQHk/rtj1pack3jVn/T2sQf4fHpo=
-			</data>
-		</dict>
-		<key>Headers/log_crypt.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DymJYV+OikCGr/Jf7Oyqqk5ADjQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			xOJQohPUTEvg4Giss0HQHMANbptCfxtSKp8/pkzU694=
-			</data>
-		</dict>
-		<key>Headers/logems_appender.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qjXDnqTIBCZ2EYomUIVqjUvU+HU=
-			</data>
-			<key>hash2</key>
-			<data>
-			fml1Ux9VLub7a3pR5iaaayohKhhFivM6nPrVJ3jsyVo=
-			</data>
-		</dict>
-		<key>Headers/logems_base_buffer.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			md2TJaczlE3Gw0y63yLDaXvkr3U=
-			</data>
-			<key>hash2</key>
-			<data>
-			sl1hCRCrHZr+g+MPz5103bjUgXNk4Ic+OgLz5n2FGo0=
-			</data>
-		</dict>
-		<key>Headers/logems_config.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zgTo4PSMvV3yqVy0hCIEkur4KlU=
-			</data>
-			<key>hash2</key>
-			<data>
-			l3laBXgZHYYbOYP2OOJ6ZHc+HeEQhXAIEfoKXPgzfN4=
-			</data>
-		</dict>
-		<key>Headers/variable_length_buffer.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			baoF+szERkEqt7wcmdeiMQ6qTaU=
-			</data>
-			<key>hash2</key>
-			<data>
-			QjDnwfYkNIzpAoUZ6O5SSvZJ6oHy9N9xvEXy/mB+ANw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
